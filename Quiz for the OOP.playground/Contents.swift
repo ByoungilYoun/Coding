@@ -115,26 +115,27 @@ myTV.checkChannelVolume()
 
 //1.
 class Square {
-    var length : Int
-   
+    var lengthA : Int
+    var lengthB : Int
     
-    init(length : Int) {
-        self.length = length
+    init(lengthA : Int, lengthB : Int) {
+        self.lengthA = lengthA
+        self.lengthB = lengthB
     }
     
-    func getCircumference (length : Int) -> Int {
-        return length * 4
+    func getCircumference (lengthA : Int, lengthB : Int) -> Int {
+        return lengthA + lengthA + lengthB + lengthB
     }
     
-    func getArea (length : Int) -> Int {
-        return length * length
+    func getArea (lengthA : Int, lengthB : Int ) -> Int {
+        return lengthA * lengthB
     }
     
 }
 
-let mySquare = Square(length: 10)
-mySquare.getCircumference(length: 10)
-mySquare.getArea(length: 10)
+let mySquare = Square(lengthA: 8, lengthB: 10)
+mySquare.getCircumference(lengthA: 8, lengthB: 10)
+mySquare.getArea(lengthA: 8, lengthB: 10)
 
 // 2.
 
