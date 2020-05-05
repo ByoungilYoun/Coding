@@ -1,7 +1,7 @@
 # Coding
-The codings I practice by myself in Swift💁🏻   
+The codings I practice by myself in Swift 💁🏻   
 
-1. Playgrounds
+## 1) Playgrounds
 
 1) [login.playground](https://github.com/ByoungilYoun/Coding/blob/master/login.playground/Contents.swift).  
 2) [Conditional Operator.playground](https://github.com/ByoungilYoun/Coding/blob/master/Conditional%20Operator.playground/Contents.swift).  
