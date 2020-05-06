@@ -1,5 +1,5 @@
 # Coding
-The codings I practice by myself in Swift 💁🏻   
+The codings & projects I practice by myself in Swift 💁🏻   
 
 ## 1) Playgrounds
 
@@ -15,3 +15,7 @@ The codings I practice by myself in Swift 💁🏻
 10) [Quiz for the Enum&Optional.playground](https://github.com/ByoungilYoun/Coding/blob/master/Quiz%20for%20the%20Enum%26Optional.playground/Contents.swift).  
 11) [Quiz for the Closure.playground](https://github.com/ByoungilYoun/Coding/blob/master/Quiz%20for%20the%20Closure.playground/Contents.swift).  
 12) [Quiz for the OOP.playground](https://github.com/ByoungilYoun/Coding/blob/master/Quiz%20for%20the%20OOP.playground/Contents.swift).  
+
+## 2) Projects 
+
+1) [ChangingThreeViews](https://github.com/ByoungilYoun/Coding/tree/master/ChangingThreeViews/ChangingThreeViews)
