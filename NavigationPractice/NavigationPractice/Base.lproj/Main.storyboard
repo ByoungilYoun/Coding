@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b7V-c1-NUY">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FirstPage-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="FirstPage" prompt="theFirstView" id="pzI-xx-rIX">
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="Vut-sO-PY2">
+                            <connections>
+                                <segue destination="o4v-4G-fEG" kind="show" id="4Xz-6k-rQH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080.8" y="137.4384236453202"/>
+        </scene>
+        <!--SecondPage-->
+        <scene sceneID="YZ9-B4-pUc">
+            <objects>
+                <viewController id="o4v-4G-fEG" customClass="SecondViewController" customModule="NavigationPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OXh-sF-9UC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7pg-Hm-fh1"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SecondPage" prompt="theSecondView" id="JjR-7E-kfI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="kjA-Q1-abs">
+                            <connections>
+                                <segue destination="7j9-pL-l8W" kind="show" id="1IE-c7-bW6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C3Z-RG-qww" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="137"/>
+        </scene>
+        <!--ThirdPage-->
+        <scene sceneID="QGc-FS-JFE">
+            <objects>
+                <viewController id="7j9-pL-l8W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NVc-fh-yk1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFo-MN-bo3">
+                                <rect key="frame" x="64" y="692" width="247" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="MovetoFirstPage">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tUR-hF-vPw" kind="unwind" unwindAction="unwindToFirstPage:" id="mRe-c8-txr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="V9V-fa-ocn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ThirdPage" prompt="theThirdView" id="QsV-z3-wRy">
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="iLi-Py-hqI">
+                            <connections>
+                                <segue destination="aoJ-cB-SPw" kind="show" id="bgB-AU-VH9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ngE-FJ-zQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="tUR-hF-vPw" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2517.5999999999999" y="136.69950738916256"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ecc-7A-7Tj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b7V-c1-NUY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wuI-hB-H5Y">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FC1-g2-cXT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYY-Zo-uK0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="137"/>
+        </scene>
+        <!--FourthPage-->
+        <scene sceneID="QzJ-HT-nmq">
+            <objects>
+                <viewController id="aoJ-cB-SPw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VAM-w9-tMU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2m-8t-TVZ">
+                                <rect key="frame" x="55" y="581" width="265" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60881344459999998" green="1" blue="0.34194992639999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="MovetoFirstPage"/>
+                                <connections>
+                                    <segue destination="DeP-9O-T83" kind="unwind" unwindAction="unwindToFirstPage2:" id="ycF-K1-4hj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1u-ew-Ruv">
+                                <rect key="frame" x="55" y="675" width="265" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60881344459999998" green="1" blue="0.34194992639999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="MovetoSecondPage"/>
+                                <connections>
+                                    <segue destination="DeP-9O-T83" kind="unwind" unwindAction="unwindToSecondPage:" id="R2F-oh-9n0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="qdp-e2-fqB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="FourthPage" prompt="theFourthView" id="uWp-ya-s5a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLy-0i-Koc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="DeP-9O-T83" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3253.5999999999999" y="136.69950738916256"/>
+        </scene>
+    </scenes>
+</document>
