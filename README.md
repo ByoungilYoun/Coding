@@ -1,5 +1,5 @@
 # Coding
-The codings & projects I practice by myself in Swift 🧑🏼‍💻
+The codings & projects I practice by myself in Swift 
 
 ## 1) Playgrounds
 
